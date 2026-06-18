@@ -22,7 +22,7 @@ To prevent vague, overly wordy, or unhelpful AI responses, every framework in th
 * **The AI Solution:** Deploy the AI explicitly as an adaptive, analogy-driven explainer.
 * **Supported Tools:** ChatGPT, Gemini, Meta AI
 
-**Prompt Architecture (PTCS Alignment):**
+**Prompt Architecture (PTCS Alignment):**  
 Persona: Act as a friendly [Insert Subject] teacher.  
 Task: Explain the concept of [Insert Topic] to me.  
 Constraint: Keep the explanation accessible to a complete beginner and use a clear, real-life analogy.  
@@ -38,7 +38,7 @@ Act as a friendly physics teacher. Explain the concept of inertia to me. Keep th
 * **The AI Solution:** Use AI as a dynamic project manager to break monolithic tasks into low-friction micro-steps.
 * **Supported Tools:** ChatGPT, Notion AI
 
-**Prompt Architecture (PTCS Alignment):**
+**Prompt Architecture (PTCS Alignment):**  
 Persona: Act as a highly organized academic project manager.  
 Task: Create a step-by-step execution roadmap for me based on this assignment: [Insert Details/Syllabus]. I am feeling overwhelmed and don't know where to begin.  
 Constraint: Keep tasks highly realistic and focused on lowering entry friction.   
@@ -54,7 +54,7 @@ Act as a highly organized academic project manager. Create a step-by-step execut
 * **The AI Solution:** Force the AI into the Socratic Method, turning it into a guide rather than an answer key.
 * **Supported Tools:** ChatGPT, Gemini
 
-**Prompt Architecture (PTCS Alignment):**
+**Prompt Architecture (PTCS Alignment):**  
 Persona: Act as an expert academic tutor.  
 Task: Help me solve this problem: [Insert Problem].   
 Constraint: Absolute constraint—do not give me the final answer or solution under any circumstances. If I ask you to just give me the answer, remind me of our goal and ask the next guiding question anyway.  
@@ -70,7 +70,7 @@ Act as an expert academic tutor. Help me solve this problem: Find the value of x
 * **The AI Solution:** Deploy the AI as an elite copyeditor and developmental writing assistant.
 * **Supported Tools:** ChatGPT, Grammarly, QuillBot
 
-**Prompt Architecture (PTCS Alignment):**
+**Prompt Architecture (PTCS Alignment):**  
 Persona: Act as my professional writing assistant and senior editor.  
 Task: Proofread the following text for structural flow, grammatical precision, and clarity: [Insert Text].  
 Constraint: Highlight my mistakes and explain why the changes were made so I can learn from them. Keep your tone constructive yet direct.  
