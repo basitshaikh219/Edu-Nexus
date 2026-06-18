@@ -8,10 +8,10 @@ Edu Nexus is a practical framework and prompt engineering library designed to tr
 
 To prevent vague, overly wordy, or unhelpful AI responses, every framework in this repository utilizes the **PTCS Technique**:
 
-* **Persona:** Tell the AI exactly who it needs to be (e.g., "Act as a friendly physics teacher").
-* **Task:** Clearly define what the AI needs to accomplish.
-* **Constraint:** Set explicit boundaries (e.g., "Do not give the answer," "Use simple analogies").
-* **Structure:** Dictate how the output should look (e.g., "Ask me one question at a time," "Format as bullet points").
+* **Persona:** Tell the AI exactly who it needs to be (e.g., "Act as a friendly physics teacher").  
+* **Task:** Clearly define what the AI needs to accomplish.  
+* **Constraint:** Set explicit boundaries (e.g., "Do not give the answer," "Use simple analogies").  
+* **Structure:** Dictate how the output should look (e.g., "Ask me one question at a time," "Format as bullet points").  
 
 ---
 
@@ -23,10 +23,10 @@ To prevent vague, overly wordy, or unhelpful AI responses, every framework in th
 * **Supported Tools:** ChatGPT, Gemini, Meta AI
 
 **Prompt Architecture (PTCS Alignment):**
-Persona: Act as a friendly [Insert Subject] teacher.
-Task: Explain the concept of [Insert Topic] to me.
-Constraint: Keep the explanation accessible to a complete beginner and use a clear, real-life analogy.
-Structure: Provide a short overview, followed by the analogy, and end with a quick summary bullet point.
+Persona: Act as a friendly [Insert Subject] teacher.  
+Task: Explain the concept of [Insert Topic] to me.  
+Constraint: Keep the explanation accessible to a complete beginner and use a clear, real-life analogy.  
+Structure: Provide a short overview, followed by the analogy, and end with a quick summary bullet point.  
 
 **Live Example:**
 Act as a friendly physics teacher. Explain the concept of inertia to me. Keep the explanation accessible to a complete beginner and use a clear, real-life analogy. Provide a short overview, followed by the analogy, and end with a quick summary bullet point.
@@ -39,10 +39,10 @@ Act as a friendly physics teacher. Explain the concept of inertia to me. Keep th
 * **Supported Tools:** ChatGPT, Notion AI
 
 **Prompt Architecture (PTCS Alignment):**
-Persona: Act as a highly organized academic project manager.
-Task: Create a step-by-step execution roadmap for me based on this assignment: [Insert Details/Syllabus]. I am feeling overwhelmed and don't know where to begin.
-Constraint: Keep tasks highly realistic and focused on lowering entry friction. 
-Structure: Divide the entire plan into easily manageable 30-minute chunks with clear action items.
+Persona: Act as a highly organized academic project manager.  
+Task: Create a step-by-step execution roadmap for me based on this assignment: [Insert Details/Syllabus]. I am feeling overwhelmed and don't know where to begin.  
+Constraint: Keep tasks highly realistic and focused on lowering entry friction.   
+Structure: Divide the entire plan into easily manageable 30-minute chunks with clear action items.  
 
 **Live Example:**
 Act as a highly organized academic project manager. Create a step-by-step execution roadmap for me based on this assignment: I have to study the entire 10th-grade Chemistry chapter on Acids and Bases by tomorrow. I am feeling overwhelmed and don't know where to begin. Keep tasks highly realistic and focused on lowering entry friction. Divide the entire plan into easily manageable 30-minute chunks with clear action items.
@@ -55,10 +55,10 @@ Act as a highly organized academic project manager. Create a step-by-step execut
 * **Supported Tools:** ChatGPT, Gemini
 
 **Prompt Architecture (PTCS Alignment):**
-Persona: Act as an expert academic tutor.
-Task: Help me solve this problem: [Insert Problem]. 
-Constraint: Absolute constraint—do not give me the final answer or solution under any circumstances. If I ask you to just give me the answer, remind me of our goal and ask the next guiding question anyway.
-Structure: Guide me through the problem by asking me exactly one progressive question at a time to help me figure out the next logical step myself.
+Persona: Act as an expert academic tutor.  
+Task: Help me solve this problem: [Insert Problem].   
+Constraint: Absolute constraint—do not give me the final answer or solution under any circumstances. If I ask you to just give me the answer, remind me of our goal and ask the next guiding question anyway.  
+Structure: Guide me through the problem by asking me exactly one progressive question at a time to help me figure out the next logical step myself.  
 
 **Live Example:**
 Act as an expert academic tutor. Help me solve this problem: Find the value of x in the equation 3x + 5 = 20. Absolute constraint—do not give me the final answer or solution under any circumstances. If I ask you to just give me the answer, remind me of our goal and ask the next guiding question anyway. Guide me through the problem by asking me exactly one progressive question at a time to help me figure out the next logical step myself.
@@ -71,10 +71,10 @@ Act as an expert academic tutor. Help me solve this problem: Find the value of x
 * **Supported Tools:** ChatGPT, Grammarly, QuillBot
 
 **Prompt Architecture (PTCS Alignment):**
-Persona: Act as my professional writing assistant and senior editor.
-Task: Proofread the following text for structural flow, grammatical precision, and clarity: [Insert Text].
-Constraint: Highlight my mistakes and explain why the changes were made so I can learn from them. Keep your tone constructive yet direct.
-Structure: Present your feedback in a table format showing: Original Text | Suggested Edit | Reason for Change.
+Persona: Act as my professional writing assistant and senior editor.  
+Task: Proofread the following text for structural flow, grammatical precision, and clarity: [Insert Text].  
+Constraint: Highlight my mistakes and explain why the changes were made so I can learn from them. Keep your tone constructive yet direct.  
+Structure: Present your feedback in a table format showing: Original Text | Suggested Edit | Reason for Change.  
 
 **Live Example:**
 Act as my professional writing assistant and senior editor. Proofread the following text for structural flow, grammatical precision, and clarity: 'Artificial intelligence is changing the world fast. Many schools use it now. But some students just copy answers and they do not learn anything at all.' Highlight my mistakes and explain why the changes were made so I can learn from them. Keep your tone constructive yet direct. Present your feedback in a table format showing: Original Text | Suggested Edit | Reason for Change.
